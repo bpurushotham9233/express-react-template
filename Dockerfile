@@ -4,4 +4,4 @@ COPY package*.json /app
 RUN npm install
 copy . .
 EXPOSE 3001
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
